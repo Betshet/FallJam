@@ -1,0 +1,33 @@
+{
+	"FileVersion": 3,
+	"Version": 0,
+	"VersionName": "v5.1.0",
+	"FriendlyName": "Events System",
+	"Description": "Event-driven system who improves flow control inside your project. Build huge systemic games easy.",
+	"Category": "Editor",
+	"CreatedBy": "Out-of-the-Box Plugins",
+	"CreatedByURL": "https://outofthebox-plugins.com",
+	"DocsURL": "https://gitlab.com/unreal-marketplace/EventsSystem/-/wikis/home",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/92c5f7f264f94069bc5d9a6981117c52",
+	"SupportURL": "https://gitlab.com/unreal-marketplace/EventsSystem/-/wikis/home",
+	"EngineVersion": "5.4.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "EventsSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		},
+		{
+			"Name": "EventsSystemEditor",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		}
+	]
+}
